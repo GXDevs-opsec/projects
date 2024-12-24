@@ -17,7 +17,7 @@ behavior of these gates and provides a way to track all calculations made during
 
 Installation
 1. Clone the repository to your local machine:
-git clone https://github.com/yourusername/logic-gate-simulator.git
+git clone https://github.com/GXDevs-opsec/projects.git
 
 2. Navigate to the project directory:
 cd logic-gate-simulator
