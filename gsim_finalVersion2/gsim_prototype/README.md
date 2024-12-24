@@ -39,9 +39,13 @@ Each operation will be saved in a text file called save.txt in the same director
 something like this:
 
 inp-0: 0 Tue Dec 24 11:33:40 EET 2024
+
 inp-1: 0 Tue Dec 24 11:33:40 EET 2024
+
 inp-2: 1 Tue Dec 24 11:33:40 EET 2024
+
 inp-3: 1 Tue Dec 24 11:33:40 EET 2024
+
 output: 1 Tue Dec 24 11:33:40 EET 2024
 ==================================================================.
 
