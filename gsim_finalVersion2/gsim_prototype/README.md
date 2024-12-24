@@ -22,7 +22,7 @@ Installation
 git clone https://github.com/GXDevs-opsec/projects.git
 
 2. Navigate to the project directory:
-cd logic-gate-simulator
+cd gsim_prototype
 
 Usage
 
@@ -30,8 +30,9 @@ To run the simulator:
 bash menu.sh
 
 The program will prompt you to select a logic gate to simulate and ask for the required inputs. After each operation,
-the program will append the inputs and results to a text file called log.txt in the current directory.
+the program will append the inputs and results to a text file called save.txt in the current directory.
 You will be prompted to select the logic gate you want to simulate and provide the necessary inputs.
+The program can handle errors very well. So you dont have to worry about them.
 
 Log File
 
@@ -55,7 +56,9 @@ You can open save.txt anytime to view the history of operations performed.
 Code Structure
 
 menu.sh: Containts the menu of the program (Made in bash).
-transporter.sh: Containts the file logging system (Made in bash).
+
+transporter.sh: Containts the file logging system (Made in bash
+
 save.txt: The text file where inputs and outputs of each calculations are logged.
 
 The GATES folder contains all of the python scripts that handle the calculations of the gates.
