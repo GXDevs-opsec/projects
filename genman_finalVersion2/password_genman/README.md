@@ -22,7 +22,7 @@ Requirements
 
 Installation
 1. Clone the repository to your local machine:
-git clone https://github.com/yourusername/password_genman.git
+git clone https://github.com/GXDevs-opsec/projects.git
 
 2. Navigate to the project directory:
 cd password_genman
