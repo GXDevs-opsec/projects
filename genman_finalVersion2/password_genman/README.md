@@ -58,10 +58,10 @@ How It Works
 The main.py is the main script of the program. You should only run this specific script. The main.py basically, lets
 you customize the password and generate it according to your own decisions. The password is then stored automatically in
 a file.txt un-encrypted. If you want to encrypt your password then you should run the program again and choose
-option #7 and then option #1. The program then will ask you to enter a secret phrase. The secret phrase is the 
+option #8 and then option #1. The program then will ask you to enter a secret phrase. The secret phrase is the 
 password that will let you encrypt and decrypt your password successfully. So make sure that you dont share it with 
 anyone and dont forget it. If you want to decrypt your password then you should run the program again and choose 
-option #7 and then option #2. You will then be asked to enter the secret phrase that you made when you firstly
+option #8 and then option #2. You will then be asked to enter the secret phrase that you made when you firstly
 encrypted the password. The program can handle errors so dont worry about them.
 
 Contributing
