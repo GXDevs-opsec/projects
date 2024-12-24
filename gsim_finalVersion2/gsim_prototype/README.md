@@ -47,6 +47,7 @@ inp-2: 1 Tue Dec 24 11:33:40 EET 2024
 inp-3: 1 Tue Dec 24 11:33:40 EET 2024
 
 output: 1 Tue Dec 24 11:33:40 EET 2024
+
 ==================================================================.
 
 You can open save.txt anytime to view the history of operations performed.
@@ -57,7 +58,7 @@ menu.sh: Containts the menu of the program (Made in bash).
 transporter.sh: Containts the file logging system (Made in bash).
 save.txt: The text file where inputs and outputs of each calculations are logged.
 
-The GATES folder containts all of the python scripts that handle the calculations of the gates.
+The GATES folder contains all of the python scripts that handle the calculations of the gates.
 
 Contributing
 
