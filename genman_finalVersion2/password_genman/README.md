@@ -1,5 +1,5 @@
 This repository contains program made in python and bash that can generate and safely store passwords. The program 
-allows users to generate passwords according to their needs and store them in an encrypted file:
+allows users to generate passwords according to their needs and store them in an encrypted file.
 
 It provides a command-line interface where users can choose how they want their password to be made out of (for
 example include uppercase characters, include lowercase characters, include numbers, include symbols).
@@ -28,6 +28,7 @@ git clone https://github.com/GXDevs-opsec/projects.git
 cd password_genman
 
 Usage
+
 To run the software:
 python3 main.py
 
@@ -35,6 +36,7 @@ You will be prompted to specify the password length, and optionally, the types o
 special characters).
 
 Storing the Password
+
 Once the password is generated, it will be automatically saved in a file.txt file.
 
 The password will be encrypted and stored in file.txt.gpg. Each password is securely hashed and stored with the 
@@ -52,6 +54,7 @@ Code Structure
 - logger.sh: Containts the logging system.
 
 How It Works
+
 The main.py is the main script of the program. You should only run this specific script. The main.py basically, lets
 you customize the password and generate it according to your own decisions. The password is then stored automatically in
 a file.txt un-encrypted. If you want to encrypt your password then you should run the program again and choose
@@ -62,6 +65,7 @@ option #7 and then option #2. You will then be asked to enter the secret phrase 
 encrypted the password. The program can handle errors so dont worry about them.
 
 Contributing
+
 Feel free to fork this repository and contribute by:
 - Adding new features.
 - Fixing bugs.
@@ -70,9 +74,11 @@ Feel free to fork this repository and contribute by:
 To contribute, please submit a pull request. We will review it and merge it if it aligns with the goals of the project.
 
 Disclaimer
+
 Use this tool at your own risk. While every effort has been made to ensure the tool is secure, always keep your 
 decryption key and logs safe. This tool is designed for personal password management; it is not intended to be a 
 full-fledged password manager for all use cases.
 
 License
+
 This project is licensed under the MIT License – see the LICENSE file for details.
