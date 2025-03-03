@@ -1,0 +1,6 @@
+- This tool only works in linux operating systems.
+- C Shell (csh) must be installed.
+- Python Libraries:
+    - matplotlib
+    - numpy
+    - subprocess
